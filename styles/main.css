@@ -1,0 +1,23 @@
+:root {
+    --text-grey: #4a4a4a;
+    --brand-color: #3cdbc0;
+    --text-white: #ffffff;
+}
+
+.header {}
+
+.logo {}
+
+.nav {}
+
+.menu {
+    color: var(--text-grey);
+}
+
+.main {
+    background-color: var(--brand-color);
+}
+
+.lema {
+    color: var(--text-white);
+}
