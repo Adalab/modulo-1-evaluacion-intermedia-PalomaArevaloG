@@ -4,20 +4,64 @@
     --text-white: #ffffff;
 }
 
-.header {}
+.header {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
-.logo {}
+.logo {
+    margin-top: 10px;
+    width: 155px;
+}
 
-.nav {}
+.nav {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    line-height: 100px;
+}
 
 .menu {
     color: var(--text-grey);
+    font-family: "Rubik", sans-serif;
+    font-size: 16px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.blog {
+    margin-right: 10px;
+}
+
+.contacto {
+    margin-left: 10px;
 }
 
 .main {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     background-color: var(--brand-color);
+    width: 100vw;
+    height: 100vh;
 }
 
 .lema {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: var(--text-white);
+    font-family: "Rubik", sans-serif;
+    font-size: 30px;
+    width: 0px;
 }
