@@ -65,3 +65,24 @@
     font-size: 30px;
     width: 0px;
 }
+
+@media all and (min-width: 768px) {
+    .header {
+        display: flex;
+        position: relative;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .lema {
+        font-size: 40px;
+    }
+    .logo {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 155px;
+    }
+    .menu {
+        margin-right: 30px;
+    }
+}
